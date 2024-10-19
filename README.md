@@ -9,3 +9,9 @@ The goal is to implement a predictive maintenance workflow:
 + **Feature selection step**: Applying specific techniques in order to choose only relevant features.
 + **Deep Learning models**: The core of the Digital Twin, represented by the Long Short-Term Memory (LSTM) architecture.
 + **Data visualization tools**: A simple dashboard to check whether a failure has occurred and how much time is left for the intervention.
+
+## The workflow 
+
+1. Of the several datasets provided by Nasa, the focus is placed on the third set **`N-CMAPSS_DS03-012.h5`**, whose download link is mentioned above. The dataset is divided into development and test set.
+
+2. Exploratory Data Analysis is applied by analysing data with visual aid in `Exploratory_data_analysis.ipynb`. In short, any missing value is found, different unit numbers and flight classes are investigated and the existing failure modes are analysed.
