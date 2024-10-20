@@ -14,3 +14,5 @@ The goal is to implement a predictive maintenance workflow:
 Of the several datasets provided by Nasa, the focus is placed on the third set **`N-CMAPSS_DS03-012.h5`**, whose download link is mentioned above. The dataset is divided into development and test set.
 
 1. Exploratory Data Analysis is applied by analysing data with visual aid in `Exploratory_data_analysis.ipynb`. In short, different unit numbers and flight classes are investigated and the existing failure modes are analysed, in order to perform data preprocessing correctly.
+   
+2. Feature selection is applied both for diagnostics and prognostics tasks in `Feature_selection.ipynb`, using the ANOVA technique and the Mutual Information measure. The scores of each apporach are saved in the `feature_selection_models` folder.
