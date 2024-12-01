@@ -15,7 +15,7 @@ Of the several datasets provided by Nasa, the focus is placed on the third set *
    
 2. Feature selection is applied both for diagnostics and prognostics tasks in `Feature_selection.ipynb`, using the ANOVA technique and the Mutual Information measure. The scores of each apporach are saved in the `feature_selection_models` folder.
 
-3. Two distinct models for each task are trained in `Deep_learning_model.ipynb`. The Deep Learning model chosen for both tasks is made of Long-Short Term memory (LSTM) layers, specifically of the Bidirectional type. The models are saved in the `deep_learning_models` folder.
+3. Two distinct models for each task are trained in `Deep_learning_model.ipynb`. The Deep Learning model chosen for both tasks is made of Long-Short Term memory (LSTM) layers, specifically of the Bidirectional type. The models and the scaler are saved in the `deep_learning_models` folder.
 
 The second and last goal is to present a real use case to demonstrate the applicability of the previously proposed models:
 
