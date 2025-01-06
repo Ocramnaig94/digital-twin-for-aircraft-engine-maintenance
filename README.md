@@ -31,7 +31,7 @@ The scenario described involves three different agents that communicate with eac
 
 2. The entire logic for evaluating the incoming data is present in `Agent_evaluation.ipynb`, which will first apply the preprocessing steps needed on the raw data.
 
-3. A Node-RED instance enables communication between the agents in `Agent_dashboard.ipynb`, providing a dashboard that delivers key features about the aircraft health state.
+3. A [Node-RED](https://nodered.org/) instance enables communication between the agents in `Agent_dashboard.ipynb`, providing a dashboard that delivers key features about the aircraft health state.
 
 ## Prerequisites
 
@@ -39,6 +39,6 @@ Install pip, the package manager for Python3 in order to install the required pa
 ```
 pip install -r requirements.txt
 ```
-To be able to start effectively the agents, also install the Mosquitto MQTT Broker (v. 2.0.18) and the Node-RED tool (v. 3.0.2).
+To be able to start effectively the agents, also install the Mosquitto MQTT Broker (**v2.0.18**), Node.js (**v17.9.1**) and Node-RED (**v3.0.2**).
 
 
