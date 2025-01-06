@@ -23,3 +23,14 @@ The second and last goal is to present a real use case to demonstrate the applic
 + **Data evaluation step**: Evaluating the incoming data and sending the evaluation results back.
 + **Data visualization tools**: A simple dashboard to check whether a failure has occurred and how much time is left for the intervention.
 
+## The use case
+
+The scenario described involves three different agents that communicate with each other through the [Mosquitto MQTT Broker](https://mosquitto.org/), each one with its own specific task: 
+
+1. The task of capturing the required data is assigned in `Agent_collection.ipynb`, by loading the entire test set in memory and by sending the entire flight data at a time when requested.
+
+2. The entire logic for evaluating the incoming data is present in `Agent_evaluation.ipynb`, which will first apply the preprocessing steps needed on the raw data.
+
+3. A Node-RED instance enables communication between the agents in `Agent_dashboard.ipynb`, providing a dashboard that delivers key features about the aircraft health state.
+
+
