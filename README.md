@@ -39,6 +39,8 @@ Install pip, the package manager for Python3 in order to install the required pa
 ```
 pip install -r requirements.txt
 ```
-To be able to start effectively the agents, also install the Mosquitto MQTT Broker (**v2.0.18**), Node.js (**v17.9.1**) and Node-RED (**v3.0.2**).
-
+To be able to start effectively the agents, also install the Mosquitto MQTT Broker (**v2.0.18**), Node.js (**v17.9.1**) and Node-RED (**v3.0.2**). In order to install the extra modules needed for the node-RED dashboard, copy `package.json` into the local **.node-red** folder and from the same directory run:
+```
+npm install
+```
 
